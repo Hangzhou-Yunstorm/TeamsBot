@@ -1,0 +1,47 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.7/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.7",
+  "version": "1.1.0",
+  "id": "2084f5f9-4da1-4e9a-981b-11d1bcc20ed8",
+  "packageName": "com.yunstorm.aden.kbbot",
+  "developer": {
+    "name": "杭州云策网络技术有限公司",
+    "websiteUrl": "https://www.yunstorm.com",
+    "privacyUrl": "https://www.teams.com/privacy",
+    "termsOfUseUrl": "https://www.teams.com/termsofuse"
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "name": {
+    "short": "Aden Bot",
+    "full": "Aden Bot"
+  },
+  "description": {
+    "short": "Aden 工单机器人",
+    "full": "Aden 工单机器人"
+  },
+  "accentColor": "#F9F9FA",
+  "bots": [
+    {
+      "botId": "c4a823ca-3862-43de-96ed-3ee142832b8a",
+      "scopes": [
+        "personal",
+        "groupchat",
+        "team"
+      ],
+      "supportsFiles": false,
+      "isNotificationOnly": false
+    }
+  ],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": [
+    "*.ngrok.io",
+    "*.adenservices.com",
+    "*.azurewebsites.net"
+  ]
+}

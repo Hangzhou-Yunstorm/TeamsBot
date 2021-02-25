@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Stanley.Fileinfos.ExportTool": {
+      "commandName": "Project",
+      "commandLineArgs": "--rootPath \"F:\\Public\" -o \"\\\\Desktop-3vj1umj\\Public\""
+    }
+  }
+}

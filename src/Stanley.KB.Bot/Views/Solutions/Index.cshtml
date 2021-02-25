@@ -1,0 +1,36 @@
+﻿@model Stanley.KB.Bot.SDP.Solution
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div class="container">
+        <div class="body">
+            @Html.Raw(Model.description)
+        </div>
+        <div class="footer"></div>
+    </div>
+    <script>
+        window.onload = function () {
+            var images = document.getElementsByTagName("img");
+            if (images != null) {
+                var count = images.length;
+                for (var i = 0; i < count; i++) {
+                    var image = images[i];
+                    var origin = image.getAttribute("src");
+                    if (origin.startsWith("/")) {
+                        image.setAttribute("src", "https://helpme.adenservices.com" + origin)
+                    }
+                }
+            }
+        }
+    </script>
+</body>
+</html>

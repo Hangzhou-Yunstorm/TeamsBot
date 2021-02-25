@@ -1,0 +1,15 @@
+﻿# ErrorMessage
+- 不好意思，出了些故障。
+
+# FirstPromptMessage
+- 我能帮你做些什么？
+- 有什么需要帮助的？
+- 需要我帮你做些什么？
+
+# CompletedMessage
+- 还有其他能帮助你的吗?
+- 还需要我做些什么？
+
+# CardNoMatch
+- 请帮助我们完善这个问题
+- 希望得到您的反馈

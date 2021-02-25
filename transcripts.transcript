@@ -1,0 +1,312 @@
+[
+  {
+    "type": "conversationUpdate",
+    "membersAdded": [
+      {
+        "id": "b9eb0020-cd5d-11ea-bbd4-7da948d6c61b",
+        "name": "Bot"
+      },
+      {
+        "id": "255c0f4c-c782-45a0-9e31-241c1d6b5c95",
+        "name": "User"
+      }
+    ],
+    "membersRemoved": [],
+    "channelId": "emulator",
+    "conversation": {
+      "id": "b9ed2300-cd5d-11ea-8b2f-0d7bc68f65b4|livechat"
+    },
+    "id": "ba067760-cd5d-11ea-8b2f-0d7bc68f65b4",
+    "localTimestamp": "2020-07-24T11:28:22+08:00",
+    "recipient": {
+      "id": "b9eb0020-cd5d-11ea-bbd4-7da948d6c61b",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "timestamp": "2020-07-24T03:28:22.486Z",
+    "from": {
+      "id": "255c0f4c-c782-45a0-9e31-241c1d6b5c95",
+      "name": "User",
+      "role": "user"
+    },
+    "locale": "en-US",
+    "serviceUrl": "http://localhost:58877"
+  },
+  {
+    "type": "message",
+    "serviceUrl": "http://localhost:58877",
+    "channelId": "emulator",
+    "from": {
+      "id": "b9eb0020-cd5d-11ea-bbd4-7da948d6c61b",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "b9ed2300-cd5d-11ea-8b2f-0d7bc68f65b4|livechat"
+    },
+    "recipient": {
+      "id": "255c0f4c-c782-45a0-9e31-241c1d6b5c95",
+      "role": "user"
+    },
+    "locale": "en-US",
+    "text": "Hello and welcome!",
+    "speak": "Hello and welcome!",
+    "inputHint": "acceptingInput",
+    "attachments": [],
+    "entities": [],
+    "replyToId": "ba067760-cd5d-11ea-8b2f-0d7bc68f65b4",
+    "id": "bdd30fc0-cd5d-11ea-8b2f-0d7bc68f65b4",
+    "localTimestamp": "2020-07-24T11:28:28+08:00",
+    "timestamp": "2020-07-24T03:28:28.860Z"
+  },
+  {
+    "channelData": {
+      "clientActivityID": "1595561311977fbuvij7pdvv",
+      "clientTimestamp": "2020-07-24T03:28:31.977Z"
+    },
+    "text": "你",
+    "textFormat": "plain",
+    "type": "message",
+    "channelId": "emulator",
+    "from": {
+      "id": "255c0f4c-c782-45a0-9e31-241c1d6b5c95",
+      "name": "User",
+      "role": "user"
+    },
+    "locale": "en-US",
+    "timestamp": "2020-07-24T03:28:31.981Z",
+    "entities": [
+      {
+        "requiresBotState": true,
+        "supportsListening": true,
+        "supportsTts": true,
+        "type": "ClientCapabilities"
+      }
+    ],
+    "conversation": {
+      "id": "b9ed2300-cd5d-11ea-8b2f-0d7bc68f65b4|livechat"
+    },
+    "id": "bfaf49d0-cd5d-11ea-8b2f-0d7bc68f65b4",
+    "localTimestamp": "2020-07-24T11:28:31+08:00",
+    "recipient": {
+      "id": "b9eb0020-cd5d-11ea-bbd4-7da948d6c61b",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "serviceUrl": "http://localhost:58877"
+  },
+  {
+    "type": "message",
+    "serviceUrl": "http://localhost:58877",
+    "channelId": "emulator",
+    "from": {
+      "id": "b9eb0020-cd5d-11ea-bbd4-7da948d6c61b",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "b9ed2300-cd5d-11ea-8b2f-0d7bc68f65b4|livechat"
+    },
+    "recipient": {
+      "id": "255c0f4c-c782-45a0-9e31-241c1d6b5c95",
+      "role": "user"
+    },
+    "locale": "en-US",
+    "text": "不好意思，出了些故障。",
+    "speak": "不好意思，出了些故障。",
+    "attachments": [],
+    "entities": [],
+    "replyToId": "bfaf49d0-cd5d-11ea-8b2f-0d7bc68f65b4",
+    "id": "c8cad4d0-cd5d-11ea-8b2f-0d7bc68f65b4",
+    "localTimestamp": "2020-07-24T11:28:47+08:00",
+    "timestamp": "2020-07-24T03:28:47.261Z"
+  },
+  {
+    "channelData": {
+      "clientActivityID": "1595561341752s3m6zbnm7rl",
+      "clientTimestamp": "2020-07-24T03:29:01.752Z"
+    },
+    "text": "你",
+    "textFormat": "plain",
+    "type": "message",
+    "channelId": "emulator",
+    "from": {
+      "id": "255c0f4c-c782-45a0-9e31-241c1d6b5c95",
+      "name": "User",
+      "role": "user"
+    },
+    "locale": "en-US",
+    "timestamp": "2020-07-24T03:29:01.755Z",
+    "conversation": {
+      "id": "b9ed2300-cd5d-11ea-8b2f-0d7bc68f65b4|livechat"
+    },
+    "id": "d16e70b0-cd5d-11ea-8b2f-0d7bc68f65b4",
+    "localTimestamp": "2020-07-24T11:29:01+08:00",
+    "recipient": {
+      "id": "b9eb0020-cd5d-11ea-bbd4-7da948d6c61b",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "serviceUrl": "http://localhost:58877"
+  },
+  {
+    "type": "message",
+    "serviceUrl": "http://localhost:58877",
+    "channelId": "emulator",
+    "from": {
+      "id": "b9eb0020-cd5d-11ea-bbd4-7da948d6c61b",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "b9ed2300-cd5d-11ea-8b2f-0d7bc68f65b4|livechat"
+    },
+    "recipient": {
+      "id": "255c0f4c-c782-45a0-9e31-241c1d6b5c95",
+      "role": "user"
+    },
+    "locale": "en-US",
+    "text": "有什么需要帮助的？",
+    "speak": "有什么需要帮助的？",
+    "inputHint": "expectingInput",
+    "attachments": [],
+    "entities": [],
+    "replyToId": "d16e70b0-cd5d-11ea-8b2f-0d7bc68f65b4",
+    "id": "d25a7e60-cd5d-11ea-8b2f-0d7bc68f65b4",
+    "localTimestamp": "2020-07-24T11:29:03+08:00",
+    "timestamp": "2020-07-24T03:29:03.302Z"
+  },
+  {
+    "channelData": {
+      "clientActivityID": "1595561347616tuzjhnsb8w9",
+      "clientTimestamp": "2020-07-24T03:29:07.616Z"
+    },
+    "text": "没有",
+    "textFormat": "plain",
+    "type": "message",
+    "channelId": "emulator",
+    "from": {
+      "id": "255c0f4c-c782-45a0-9e31-241c1d6b5c95",
+      "name": "User",
+      "role": "user"
+    },
+    "locale": "en-US",
+    "timestamp": "2020-07-24T03:29:07.618Z",
+    "conversation": {
+      "id": "b9ed2300-cd5d-11ea-8b2f-0d7bc68f65b4|livechat"
+    },
+    "id": "d4ed1020-cd5d-11ea-8b2f-0d7bc68f65b4",
+    "localTimestamp": "2020-07-24T11:29:07+08:00",
+    "recipient": {
+      "id": "b9eb0020-cd5d-11ea-bbd4-7da948d6c61b",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "serviceUrl": "http://localhost:58877"
+  },
+  {
+    "type": "message",
+    "serviceUrl": "http://localhost:58877",
+    "channelId": "emulator",
+    "from": {
+      "id": "b9eb0020-cd5d-11ea-bbd4-7da948d6c61b",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "b9ed2300-cd5d-11ea-8b2f-0d7bc68f65b4|livechat"
+    },
+    "recipient": {
+      "id": "255c0f4c-c782-45a0-9e31-241c1d6b5c95",
+      "role": "user"
+    },
+    "locale": "en-US",
+    "text": "这些对您有帮助吗？",
+    "inputHint": "expectingInput",
+    "suggestedActions": {
+      "actions": [
+        {
+          "type": "messageBack",
+          "title": "👍",
+          "text": "positive",
+          "displayText": "👍"
+        },
+        {
+          "type": "messageBack",
+          "title": "👎",
+          "text": "negative",
+          "displayText": "👎"
+        },
+        {
+          "type": "messageBack",
+          "title": "Dismiss",
+          "text": "dismiss",
+          "displayText": "Dismiss"
+        }
+      ]
+    },
+    "attachments": [],
+    "entities": [],
+    "replyToId": "d4ed1020-cd5d-11ea-8b2f-0d7bc68f65b4",
+    "id": "d5286b70-cd5d-11ea-8b2f-0d7bc68f65b4",
+    "localTimestamp": "2020-07-24T11:29:08+08:00",
+    "timestamp": "2020-07-24T03:29:08.007Z"
+  },
+  {
+    "channelData": {
+      "messageBack": {
+        "displayText": "👍"
+      },
+      "clientActivityID": "1595561355050jk4n7eddk9j",
+      "clientTimestamp": "2020-07-24T03:29:15.050Z"
+    },
+    "text": "positive",
+    "type": "message",
+    "channelId": "emulator",
+    "from": {
+      "id": "255c0f4c-c782-45a0-9e31-241c1d6b5c95",
+      "name": "User",
+      "role": "user"
+    },
+    "locale": "en-US",
+    "timestamp": "2020-07-24T03:29:15.051Z",
+    "conversation": {
+      "id": "b9ed2300-cd5d-11ea-8b2f-0d7bc68f65b4|livechat"
+    },
+    "id": "d95b3fb0-cd5d-11ea-8b2f-0d7bc68f65b4",
+    "localTimestamp": "2020-07-24T11:29:15+08:00",
+    "recipient": {
+      "id": "b9eb0020-cd5d-11ea-bbd4-7da948d6c61b",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "serviceUrl": "http://localhost:58877"
+  },
+  {
+    "type": "message",
+    "serviceUrl": "http://localhost:58877",
+    "channelId": "emulator",
+    "from": {
+      "id": "b9eb0020-cd5d-11ea-bbd4-7da948d6c61b",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "b9ed2300-cd5d-11ea-8b2f-0d7bc68f65b4|livechat"
+    },
+    "recipient": {
+      "id": "255c0f4c-c782-45a0-9e31-241c1d6b5c95",
+      "role": "user"
+    },
+    "locale": "en-US",
+    "text": "还需要我做些什么？",
+    "speak": "还需要我做些什么？",
+    "inputHint": "expectingInput",
+    "attachments": [],
+    "entities": [],
+    "replyToId": "d95b3fb0-cd5d-11ea-8b2f-0d7bc68f65b4",
+    "id": "d9702740-cd5d-11ea-8b2f-0d7bc68f65b4",
+    "localTimestamp": "2020-07-24T11:29:15+08:00",
+    "timestamp": "2020-07-24T03:29:15.188Z"
+  }
+]
